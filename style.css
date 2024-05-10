@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #181818; 
+    color: #333; 
+}
+
+nav {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #333; 
+}
+
+#homeBanner {
+    /*background-image: */
+    height: 300px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homeIntro {
+    color: #fff; 
+}
+
+#homePrelude {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #090909; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.homeTidBits {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #090909; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
