@@ -27,7 +27,9 @@ nav a:hover {
 }
 
 #homeBanner {
-    /*background-image: */
+    background-image: url(images/portfolio-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px; 
     text-align: center;
     display: flex;
@@ -45,11 +47,52 @@ nav a:hover {
     background-color: #090909; 
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .homeTidBits {
+    width: 35vw;
     padding: 20px;
     margin: 20px 0;
     background-color: #090909; 
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+#homeProjectOne {
+    border-top: ;
+    border-bottom: ;
+    border-left: ;
+    border-right: ;
+}
+#homeProjectTwo {
+    border-top: ;
+    border-bottom: ;
+    border-left: ;
+    border-right: ;
+}
+#homeOtherWork {
+    border-top: ;
+    border-bottom: ;
+    border-left: ;
+    border-right: ;
+}
+#homeTennis {
+    border-top: ;
+    border-bottom: ;
+    border-left: ;
+    border-right: ;
+}
+.border-gradient-purple {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #7fd6ff, #f36fff);
+}
+
+.border-gradient-purple-reverse {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #f36fff, #7fd6ff);
 }
