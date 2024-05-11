@@ -96,3 +96,27 @@ nav a:hover {
     border-width: 5px;
     border-image-source: linear-gradient(to left, #f36fff, #7fd6ff);
 }
+
+.accademicTidBits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#accademicTidBitImages {
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px;
+}
+
+#apes {
+    margin-left: 30vw;
+}
+
+#physics {
+    margin-left: 60vw;
+}
+
+.third {
+    width: 33vw;
+}
