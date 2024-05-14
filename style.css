@@ -1,8 +1,10 @@
 * {
+    font-family: Inter;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
+    overflow-x: hidden;
 }
 
 body {
@@ -97,7 +99,7 @@ nav a:hover {
     border-image-source: linear-gradient(to left, #f36fff, #7fd6ff);
 }
 
-.accademicTidBits {
+/* .accademicTidBits {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -119,4 +121,143 @@ nav a:hover {
 
 .third {
     width: 33vw;
+} */
+
+#otherwork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+#otherworkMemeGenerator, #otherworkCSSZenGarden {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#otherwork section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#otherworkMemeGeneratorText, #otherworkCSSZenGardenText {
+    flex: 1;
+    padding: 20px;
+}
+
+#otherworkMemeGeneratorImage, #otherworkCSSZenGardenImage {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherworkImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#academics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+#academicsCalc, #academicsAPES, #academicsPhysics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#academics section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#academicsAPESText, #academicsCalcText, #academicsPhysicsText {
+    flex: 1;
+    padding: 20px;
+}
+
+#academicPhysicsImage, #academicAPESImage, #academicCalcImage {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherworkImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#tennis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+#tennisTournaments, #tennisSchool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+#tennis section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#tennisTournamentsText, #tennisSchoolText {
+    flex: 1;
+    padding: 20px;
+}
+
+#tennisTournamentsImage, #tennisSchoolImage {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tennisImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#english {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+#jurrasicParkChaosTitle {
+    text-align: center;
 }
