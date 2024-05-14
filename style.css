@@ -201,7 +201,7 @@ nav a:hover {
     align-items: center;
 }
 
-.otherworkImage {
+.academicImage {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
@@ -284,6 +284,42 @@ nav a:hover {
 
 #resumeList {
     list-style: none;
+}
+
+#ppours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+
+#ppoursObjective, #ppoursFallShowcase {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(166, 206, 255, 1);
+    margin: 20px 0;
+}
+
+#ppours section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#ppoursObjectiveText, #ppoursFallShowcaseText {
+    flex: 1;
+    padding: 20px;
+}
+
+#ppoursFallShowcaseImage, #ppoursObjectiveImage {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 800px) {
